@@ -1,12 +1,44 @@
 @charset "UTF-8";
 
-/*
-*{
-    height: 0px;
-    width: 0px;
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
-*/
 
+/* Configuração da página de esporte */
 
+.esporte{
 
+}
+
+/* Configuração da tabela de horário */
+
+.horario{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+caption{
+    border: 1.5px solid white;
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+}
+
+th, td{
+    border: 1.5px solid white;
+    padding: 10px;
+}
+
+div#container{
+    overflow-x: auto;
+}
+
+.alinhamento{
+    text-align: center;
+}
 
