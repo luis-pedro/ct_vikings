@@ -1,21 +1,28 @@
 @charset "UTF-8";
 
 
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*--------------------------------------------------*/
 /* Configuração da página de esporte */
+/*--------------------------------------------------*/
 
 .esporte{
 
 }
 
+/*--------------------------------------------------*/
 /* Configuração da tabela de horário */
+/*--------------------------------------------------*/
 
 .horario{
     background-color: rgb(0, 0, 0);
     color: white;
+    width: 100%;
+    height: 249px;
 }
 
 table{
@@ -33,6 +40,27 @@ th, td{
     border: 1.5px solid white;
     padding: 10px;
 }
+
+/*Configuração das cores de cada sexo*/
+
+
+.masculino{
+    color: rgb(91, 91, 255);
+}
+
+.feminino{
+    color: rgb(255, 0, 255);
+}
+
+.misto{
+    color: rgb(239, 51, 51);
+}
+
+.kids{
+    background-image: linear-gradient(to right, rgba(115, 229, 115, 0.562), rgb(205, 205, 99), rgb(74, 74, 191), rgb(180, 59, 59));
+}
+
+/**/
 
 div#container{
     overflow-x: auto;
